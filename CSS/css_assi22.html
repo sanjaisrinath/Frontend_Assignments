@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a dropdown with hover effect</title>
+    <style>
+        .droptn{
+            background-color: purple;
+            border: none;
+            font-size: 50px;
+            font-family: 'Times New Roman';
+            padding: 10px;
+            margin-left: 10px;
+        }
+        .drop{
+            display: inline-block;
+        }
+        .content{
+            display: none;
+            font-size: 40px;
+            list-style: none;
+
+        }
+        .drop:hover .content{
+            display: block;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="drop">
+        <button class="droptn">Careers</button>
+        <div class="content">
+            <li>ReactJs</li>
+            <li>Angular</li>
+            <li>Nodejs</li>
+            <li>Expressjs</li>
+        </div>
+    </div>
+    
+
+    
+
+</body>
+</html>
